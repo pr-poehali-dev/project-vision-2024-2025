@@ -38,9 +38,16 @@ export function HeroSection() {
       </div>
 
       <div className="container mx-auto text-center max-w-5xl relative z-10">
-        <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-primary/10 border border-primary/20 mb-6 animate-fade-in-up">
-          <Sparkles className="w-4 h-4 text-primary" />
-          <span className="text-sm font-medium text-primary">Рекламная мастерская в вашем городе</span>
+        <div className="flex flex-col items-center gap-4 mb-6 animate-fade-in-up">
+          <img
+            src="https://cdn.poehali.dev/projects/813ec2bc-10c7-4278-b965-30445dc0c660/bucket/7a87d66c-5e73-47c9-a19b-5198030b46b2.jpg"
+            alt="Логотип Графит"
+            className="w-28 h-28 object-contain"
+          />
+          <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-primary/10 border border-primary/20">
+            <Sparkles className="w-4 h-4 text-primary" />
+            <span className="text-sm font-medium text-primary">Рекламная мастерская Графит</span>
+          </div>
         </div>
 
         <h1 className="text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-bold tracking-tight mb-6 animate-fade-in-up text-balance">
