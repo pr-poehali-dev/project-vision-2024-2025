@@ -39,14 +39,14 @@ export function HeroSection() {
 
       <div className="container mx-auto text-center max-w-5xl relative z-10">
         <div className="flex flex-col items-center gap-4 mb-6 animate-fade-in-up">
-          <img
-            src="https://cdn.poehali.dev/projects/813ec2bc-10c7-4278-b965-30445dc0c660/bucket/7a87d66c-5e73-47c9-a19b-5198030b46b2.jpg"
-            alt="Логотип Графит"
-            className="w-28 h-28 object-contain"
-          />
-          <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-primary/10 border border-primary/20">
+          <div className="inline-flex items-center gap-3 px-5 py-3 rounded-full bg-primary/10 border border-primary/20">
             <Sparkles className="w-4 h-4 text-primary" />
-            <span className="text-sm font-medium text-primary">Рекламная мастерская Графит</span>
+            <span className="text-sm font-medium text-primary">Рекламная мастерская «Графит»</span>
+            <img
+              src="https://cdn.poehali.dev/projects/813ec2bc-10c7-4278-b965-30445dc0c660/bucket/c0588d33-1da7-4021-8046-0eaeaf74bff8.png"
+              alt="Логотип Графит"
+              className="w-8 h-8 object-contain"
+            />
           </div>
         </div>
 
