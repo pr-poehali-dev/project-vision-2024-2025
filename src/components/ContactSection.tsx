@@ -204,6 +204,17 @@ export function ContactSection() {
             className="block"
           />
         </div>
+        <div className="mt-4 text-center">
+          <a
+            href="https://yandex.ru/maps/?rtext=~55.016445,82.921898&rtt=auto&text=Красноярск%2C%20Торговый%20квартал%205%20стр.1"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center gap-2 bg-primary text-primary-foreground px-6 py-3 rounded-xl font-medium hover:opacity-90 transition-opacity"
+          >
+            <MapPin className="h-4 w-4" />
+            Построить маршрут
+          </a>
+        </div>
       </div>
     </section>
   )
