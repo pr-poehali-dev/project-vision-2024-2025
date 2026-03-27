@@ -192,6 +192,18 @@ export function ContactSection() {
             </Card>
           </div>
         </div>
+
+        <div className="mt-12 rounded-2xl overflow-hidden shadow-lg">
+          <iframe
+            src="https://yandex.ru/map-widget/v1/?text=Красноярск%2C%20Торговый%20квартал%205%20стр.1&z=15&l=map"
+            width="100%"
+            height="400"
+            frameBorder="0"
+            allowFullScreen
+            title="Карта"
+            className="block"
+          />
+        </div>
       </div>
     </section>
   )
