@@ -131,7 +131,7 @@ export function ContactSection() {
                   </div>
                   <div>
                     <h3 className="font-semibold mb-1">E-mail</h3>
-                    <p className="text-sm text-muted-foreground">hello@example.com</p>
+                    <p className="text-sm text-muted-foreground">gt-124@mail.ru</p>
                   </div>
                 </div>
               </CardContent>
@@ -145,7 +145,11 @@ export function ContactSection() {
                   </div>
                   <div>
                     <h3 className="font-semibold mb-1">Телефон</h3>
-                    <p className="text-sm text-muted-foreground">+7 900 123-45-67</p>
+                    <p className="text-sm text-muted-foreground">
+                      +7 (391) 214‒54‒10
+                      <br />
+                      +7‒923‒454‒10‒54
+                    </p>
                   </div>
                 </div>
               </CardContent>
@@ -160,9 +164,27 @@ export function ContactSection() {
                   <div>
                     <h3 className="font-semibold mb-1">Время работы</h3>
                     <p className="text-sm text-muted-foreground">
-                      Пн - Пт: 9:00 - 18:00
+                      Пн - Пт: 09:00 - 18:00
                       <br />
-                      Выходные: по договоренности
+                      Сб - Вс: выходные
+                    </p>
+                  </div>
+                </div>
+              </CardContent>
+            </Card>
+
+            <Card className="border-none shadow-lg hover:shadow-xl transition-all duration-300 hover:-translate-y-1 group">
+              <CardContent className="p-6">
+                <div className="flex items-start gap-4">
+                  <div className="p-3 rounded-lg bg-primary/10 text-primary group-hover:bg-primary group-hover:text-primary-foreground transition-all duration-300 group-hover:scale-110">
+                    <MapPin className="h-5 w-5" />
+                  </div>
+                  <div>
+                    <h3 className="font-semibold mb-1">Адрес</h3>
+                    <p className="text-sm text-muted-foreground">
+                      Торговый квартал 5 стр.1
+                      <br />
+                      (район Солонцов)
                     </p>
                   </div>
                 </div>
